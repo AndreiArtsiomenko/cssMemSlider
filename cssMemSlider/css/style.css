@@ -153,3 +153,24 @@ body {
 	border: none;
 	background-color: #a041fa;
 }
+
+@media (max-width: 768px) {
+	body {
+		font-size: 1.4rem;
+	}
+
+	.main__slider-bottom {
+		flex-direction: column;
+	}
+
+	.slider-bottom__texts {
+		order: 2;
+	}
+
+	.slider-bottom__control {
+		width: 100%;
+		justify-content: center;
+		margin-left: 0;
+		padding-bottom: 2rem;
+	}
+}
