@@ -12,57 +12,56 @@
 </head>
 
 <body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="container">
-				<h1 class="header__title">Mem Slider</h1>
-			</div>
-		</header>
-		<main class="main">
-			<div class="container">
-				<div class="slider-wrapper">
-					<div class="main__radio-btn">
-						<input type="radio" name="slide" id="img1" checked>
-						<input type="radio" name="slide" id="img2">
-						<input type="radio" name="slide" id="img3">
-						<input type="radio" name="slide" id="img4">
+	<main class="main">
+		<div class="container">
+			<div class="slider-wrapper">
+				<input type="radio" name="slide" id="img1" checked>
+				<input type="radio" name="slide" id="img2">
+				<input type="radio" name="slide" id="img3">
+				<input type="radio" name="slide" id="img4">
+
+				<div class="main__slider">
+					<div class="slide">
+						<img src="./assets/images/img1.jpg" class="img-slide1" alt="image 1">
 					</div>
-					<div class="main__slider">
-						<div class="slide">
-							<img src="./assets/images/img1.jpg" class="img-slide1" alt="image 1">
-						</div>
-						<div class="slide">
-							<img src="./assets/images/img2.jpg" class="img-slide2" alt="image 2">
-						</div>
-						<div class="slide">
-							<img src="./assets/images/img3.jpg" class="img-slide3" alt="image 3">
-						</div>
-						<div class="slide">
-							<img src="./assets/images/img4.jpg" class="img-slide4" alt="image 4">
+					<div class="slide">
+						<img src="./assets/images/img2.jpg" class="img-slide2" alt="image 2">
+					</div>
+					<div class="slide">
+						<img src="./assets/images/img3.jpg" class="img-slide3" alt="image 3">
+					</div>
+					<div class="slide">
+						<img src="./assets/images/img4.jpg" class="img-slide4" alt="image 4">
+					</div>
+				</div>
+				<div class="main__slider-bottom slider-bottom">
+					<div class="slider-bottom__texts">
+						<div class="slider-bottom__wrapper">
+							<div class="slider-bottom__text text1">Плохой фильм - это когда я не ставлю его на паузу, если иду
+								наливать чай</div>
+							<div class="slider-bottom__text text2">Бюджет фильма сильно урезали</div>
+							<div class="slider-bottom__text text3">Вестерн - это фильм где думают только лошади</div>
+							<div class="slider-bottom__text text4">Очередной фильм Камеди Клаб</div>
 						</div>
 					</div>
-					<div class="main__slider-bottom slider-bottom">
-						<div class="slider-bottom__texts">
-							<div class="slider-bottom__wrapper">
-								<div class="slider-bottom__text">Плохой фильм - это когда я не ставлю его на паузу, если иду наливать
-									чай</div>
-								<div class="slider-bottom__text">Бюджет фильма сильно урезали</div>
-								<div class="slider-bottom__text">Вестерн - это фильм где думают только лошади</div>
-								<div class="slider-bottom__text">Очередной фильм Камеди Клаб</div>
-							</div>
-						</div>
-						<div class="slider-bottom__control">
-							<label for="img1"></label>
-							<label for="img2"></label>
-							<label for="img3"></label>
-							<label for="img4"></label>
-						</div>
+					<div class="slider-bottom__control control">
+						<label for="img1" class="control1">
+							<div class="control__btn"></div>
+						</label>
+						<label for="img2" class="control2">
+							<div class="control__btn"></div>
+						</label>
+						<label for="img3" class="control3">
+							<div class="control__btn"></div>
+						</label>
+						<label for="img4" class="control4">
+							<div class="control__btn"></div>
+						</label>
 					</div>
 				</div>
 			</div>
-		</main>
-	</div>
-
+		</div>
+	</main>
 </body>
 
 </html>
