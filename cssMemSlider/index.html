@@ -20,31 +20,43 @@
 		</header>
 		<main class="main">
 			<div class="container">
-				<div class="main__radio-btn">
-					<input type="radio" name="slide" id="img1" checked>
-					<input type="radio" name="slide" id="img2">
-					<input type="radio" name="slide" id="img3">
-					<input type="radio" name="slide" id="img4">
-				</div>
-				<div class="main__slider slider">
-					<div class="slider__img">
-						<img src="./assets/images/img1.jpg" class="img-slide1" alt="image 1">
-						<img src="./assets/images/img2.jpg" class="img-slide2" alt="image 2">
-						<img src="./assets/images/img3.jpg" class="img-slide3" alt="image 3">
-						<img src="./assets/images/img4.jpg" class="img-slide4" alt="image 4">
+				<div class="slider-wrapper">
+					<div class="main__radio-btn">
+						<input type="radio" name="slide" id="img1" checked>
+						<input type="radio" name="slide" id="img2">
+						<input type="radio" name="slide" id="img3">
+						<input type="radio" name="slide" id="img4">
 					</div>
-					<div class="slider__texts">
-						<p class="slider__mem-text mem-text1">Плохой фильм - это когда я не ставлю его на паузу, если иду наливать
-							чай</p>
-						<p class="slider__mem-text mem-text2">Бюджет фильма сильно урезали</p>
-						<p class="slider__mem-text mem-text3">Вестерн - это фильм где думают только лошади</p>
-						<p class="slider__mem-text mem-text4">Очередной фильм Камеди Клаб</p>
+					<div class="main__slider">
+						<div class="slide">
+							<img src="./assets/images/img1.jpg" class="img-slide1" alt="image 1">
+						</div>
+						<div class="slide">
+							<img src="./assets/images/img2.jpg" class="img-slide2" alt="image 2">
+						</div>
+						<div class="slide">
+							<img src="./assets/images/img3.jpg" class="img-slide3" alt="image 3">
+						</div>
+						<div class="slide">
+							<img src="./assets/images/img4.jpg" class="img-slide4" alt="image 4">
+						</div>
 					</div>
-					<div class="slider__control">
-						<label for="img1">1</label>
-						<label for="img2">2</label>
-						<label for="img3">3</label>
-						<label for="img4">4</label>
+					<div class="main__slider-bottom slider-bottom">
+						<div class="slider-bottom__texts">
+							<div class="slider-bottom__wrapper">
+								<div class="slider-bottom__text">Плохой фильм - это когда я не ставлю его на паузу, если иду наливать
+									чай</div>
+								<div class="slider-bottom__text">Бюджет фильма сильно урезали</div>
+								<div class="slider-bottom__text">Вестерн - это фильм где думают только лошади</div>
+								<div class="slider-bottom__text">Очередной фильм Камеди Клаб</div>
+							</div>
+						</div>
+						<div class="slider-bottom__control">
+							<label for="img1"></label>
+							<label for="img2"></label>
+							<label for="img3"></label>
+							<label for="img4"></label>
+						</div>
 					</div>
 				</div>
 			</div>
