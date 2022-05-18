@@ -41,6 +41,12 @@ body {
 	display: none;
 }
 
+.main__link {
+	font-size: 2rem;
+	margin: 0 auto;
+	color: #ffffff;
+}
+
 .main__slider {
 	display: flex;
 	width: 400%;
